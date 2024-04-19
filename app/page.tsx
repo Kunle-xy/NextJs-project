@@ -1,13 +1,12 @@
 import Image from "next/image";
+import Categories from "./components/Categories";
+import PropertyList from "./components/properties/PropertyList";
 
 export default function Home() {
   return (
-    <main className="">
-      django-bnb
-      <h2 className="text-airbnb-dark">
-        django
-      </h2>
-
+    <main className="max-w-[1500px] mx-auto px-6">
+      <Categories />
+      <PropertyList />
     </main>
   );
 }

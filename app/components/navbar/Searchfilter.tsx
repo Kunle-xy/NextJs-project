@@ -2,7 +2,7 @@ import React from 'react'
 
 const Searchfilter = () => {
   return (
-    <div className='h-[64px] flex items-center justify-between border rounded-full '>
+    <div className=' flex items-center justify-between border rounded-full shadow-lg'>
         <div className='hidden lg:block'>
             <div className='flex items-center justify-between'>
                 <div className='cursor-pointer w-[250px] h-[64px] px-8 flex flex-col justify-center rounded-full hover:bg-gray-100'>
@@ -28,14 +28,11 @@ const Searchfilter = () => {
         </div>
 
         <div className='p-2'>
-            <div className='p-4 bg-airbnb hover:bg-airbnb-dark transition cursor-pointer rounded-full text-white'>
-                <svg
-                    viewBox="0 0 32 32"
-                    style={{display:'block', fill:'none', height:'16px', width:'16px', stroke:'currentColor', strokeWidth:4, overflow:'visible'}}
-                    aria-hidden="true" role="presentation" focusable="false">
-                    <path fill="none" d="M13 24a11 11 0 1 0 0-22 11 11 0 0 0 0 22zm8-3 9 9">
-                    </path>
+            <div className='p-2 lg:p-4 bg-airbnb hover:bg-airbnb-dark transition cursor-pointer rounded-full text-white'>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                 </svg>
+
             </div>
         </div>
 
